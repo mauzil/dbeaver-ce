@@ -1,5 +1,6 @@
 # Maintainer: Vitor Rodrigues <vitor dot rodrigues at gmail dot com>
 # Contributor: pappy@a_s_c_e_l_i_o_n.c_o_m
+# Contributor: Mauro Ziliani <mauro at faresoftware dot it> 
 
 pkgname=dbeaver-ce
 pkgver=21.1.5
