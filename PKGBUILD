@@ -3,7 +3,7 @@
 # Contributor: Mauro Ziliani <mauro at faresoftware dot it> 
 
 pkgname=dbeaver-ce
-pkgver=21.1.5
+pkgver=21.3.0
 pkgrel=1
 pkgdesc="Free Universal SQL Client for Developers and Database Administrators (Community Edition)"
 arch=('x86_64')
@@ -22,11 +22,11 @@ source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/serge-rider/dbeaver/a
         "${pkgname}.sh"
         "${pkgname}.profile.gz"
         "${pkgname}.hook")
-sha256sums=('429f366ee896fb21a1ef92b0ea8a9ec45d9d7d32f407b9191ecfab129d6520f1'
+sha256sums=('0746eab3ad030d719091281b4cc9db6747b8d627804f5d2e80f594a392a7f3cf'
             'a53bcfa37f71e96fdc0ba3df6748d147f29fcb3bc7f35ffad9d876f3e2b072aa'
             'ba3c2248960b2b5c6eafa227ec9bd1223e21287a991cd3b912f0b0a984666c80'
             '1863e74bdcf22b7328e6e8487cbebff7d5360e34bde85c1dd226b168b4737034'
-            '131e3eb7b97723aa17c08db23a8b588fedef3d99941de1177b90ba3917459bf0')
+	    'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855')
 
 noextract=("${source[@]%%::*}")
 
